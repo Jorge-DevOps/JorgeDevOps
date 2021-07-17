@@ -1,39 +1,78 @@
+/*
+1. Posicionanmiento
+2. Modelo de caja (box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-	font-size: 62.5%;
-	background: $color-fondo;
-	display: block;
+  font-size: $base-fontSize;
+  font-family: $base-font;
+}
+.viewer::-webkit-scrollbar {
+  width: 12px;
+
+  /* width of the entire scrollbar */
 }
 
-body {
-	font-family: $base-font;
-	font-size: $base-fontSize;
-	font-weight: 400;
-	align-items: center;
+.viewer::-webkit-scrollbar-track {
+  background: #292929;
+  /* color of the tracking area */
 }
 
-// .center{
-//     max-width: 1100px;
-//     width: 90%;
-//     overflow: hidden;
-//     margin: auto;
-//     text-align: center;
-// }
-//
-// .espacio{
-//     padding: 30px 0 60px 0;
-// }
-//
-// .espacio h2{
-//     text-align: center;
-//     padding: 30px;
-// }
-//
-// .espacio p{
-//     text-align: justify;
-// }
+.viewer::-webkit-scrollbar-thumb {
+  background-color: #3fb9bd;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid #292929;
+  /* creates padding around scroll thumb */
+}
+
+.viewer::-webkit-scrollbar {
+  -webkit-appearance: none;
+} /*# sourceMappingURL=styles.css.map */
+.viewer {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  color: white;
+
+  /* align center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* scroll-snap */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.slide:nth-child(1) {
+  background-color: #000000;
+}
+
+.slide:nth-child(2) {
+  background-color: #000000;
+}
+
+.slide:nth-child(3) {
+  background-color: #000000;
+}
+
+.slide:nth-child(4) {
+  background-color: #000000;
+}

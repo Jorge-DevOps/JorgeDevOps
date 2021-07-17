@@ -1,21 +1,20 @@
-.nav {
-  position: relative;
-  float: right;
-  z-index: 2;
+.header-nav {
+  align-self: flex-end;
 }
 
-.nav__list {
+.header-nav ul {
   float: right;
 }
 
-.nav__item {
+.header-nav li {
   margin: auto;
   padding: 2px;
   display: inline-block;
 }
 
-.nav__item a {
-  color: $color-font;
+.header-nav a {
+    font-size: 1.5rem;
+  color: white;
   padding: 0.5rem;
   border-radius: 0.2rem;
   text-decoration: none;

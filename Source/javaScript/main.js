@@ -1,13 +1,13 @@
 const typed = new Typed('.typed', {
 	strings: [
-		'<i class="mascota"> Hola!</i>',
-		'<i class="mascota">Soy ingeniero de sistemas y desarrollador de software en tecnologías web, aplicaciones móviles, aplicaciones web, aplicaciones de escritorio.</i>',
-		'<i class="mascota"></i>',
-		'<i class="mascota"></i>'
+		'<i class=""> Desarrollo de sistemas web</i>',
+		'<i class=""> Desarollo de aplicaciones moviles</i>',
+		'<i class="">Desarollo de aplicaciones de escritorio</i>',
+		'<i class="">Desarollo de aplicaciones moviles</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	typeSpeed: 90, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
 	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.

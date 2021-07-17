@@ -1,0 +1,27 @@
+@media (max-width: 610px) {
+  .viewer {
+    overflow-y: inherit;
+    -ms-scroll-snap-type: y mandatory;
+  }
+  .section-cards--skills {
+    flex-direction: column;
+
+  }
+  .container-section-cards {
+  }
+  .article-card-skill {
+    width: 32%;
+    height: 17%;
+
+  }
+  .container-div-Figure1{
+      height: 130px;
+      width: 110px;
+  }
+  .alignPanel{
+    margin-top: -27.5px;
+  }
+  .alignPanel1{
+    margin-top: -27.5px;
+  }
+}
