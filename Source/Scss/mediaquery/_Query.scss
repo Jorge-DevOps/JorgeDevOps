@@ -5,23 +5,21 @@
   }
   .section-cards--skills {
     flex-direction: column;
-
   }
   .container-section-cards {
   }
   .article-card-skill {
     width: 32%;
     height: 17%;
-
   }
-  .container-div-Figure1{
-      height: 130px;
-      width: 110px;
+  .container-div-Figure1 {
+    height: 156px !important;
+    width: 123px !important;
   }
-  .alignPanel{
+  .alignPanel {
     margin-top: -27.5px;
   }
-  .alignPanel1{
+  .alignPanel1 {
     margin-top: -27.5px;
   }
 }
@@ -32,70 +30,81 @@
   }
   .section-cards--skills {
     flex-direction: column;
-
   }
   .container-section-cards {
   }
   .article-card-skill {
     width: 32%;
     height: 17%;
-
   }
-  .container-div-Figure1{
-      height: 160px;
-      width: 133px;
+  .container-div-Figure1 {
+    height: 180px !important;
+    width: 145px !important;
   }
-  .alignPanel{
+  .alignPanel {
     margin-top: -38.5px;
   }
-  .alignPanel1{
+  .alignPanel1 {
     margin-top: -38.5px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 490px) {
+  .header-nav {
+    display: none;
+  }
+  .header-logo {
+    padding-top: 3%;
+    width: 100%;
+  }
+
   .viewer {
     overflow-y: inherit;
     -ms-scroll-snap-type: y mandatory;
   }
   .section-cards--skills {
     flex-direction: column;
-
   }
-  .container-section-cards {
+  .container-section--footer img {
+    width: 10%;
   }
   .article-card-skill {
     width: 32%;
     height: 17%;
-
   }
-  .container-div-Figure1{
-      height: 195px;
-      width: 164px;
+  .container-div-Figure1 {
+    height: 195px;
+    width: 164px;
   }
-  .alignPanel{
+  .alignPanel {
     margin-top: -46.5px;
   }
-  .alignPanel1{
+  .alignPanel1 {
     margin-top: -46.5px;
+  }
+  .container-header-fig {
+    padding-top: 13%;
+    clip-path: polygon(0% 0%, 100% 0%, 150% 50%, 50% 100%, 50% 100%, 0% 75%);
+  }
+  .header-tex {
+    padding-top: 20%;
+  }
+  .header__buttons {
+    padding-top: 20%;
   }
 }
-@media (max-width: 500px) {
-
+@media (min-width: 491px) {
   .article-card-skill {
     width: 32%;
     height: 17%;
-
   }
-  .container-div-Figure1{
-      height: 195px;
-      width: 164px;
+  .container-div-Figure1 {
+    height: 195px;
+    width: 164px;
   }
-  .alignPanel{
+  .alignPanel {
     margin-top: -46.5px;
   }
-  .alignPanel1{
+  .alignPanel1 {
     margin-top: 0;
   }
 }
-
-
